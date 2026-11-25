@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>A Letter For You ♡</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="index.html">a little scrapbook <span>♡</span></a
+      ><button class="menu-toggle" aria-label="Open menu" aria-expanded="false">
+        ☰
+      </button>
+      <nav class="nav">
+        <a href="index.html">Home</a><a href="plans.html">Little plans</a
+        ><a href="story.html">Our story</a><a href="reasons.html">Reasons</a
+        ><a class="active" href="letter.html">Letter</a
+        ><a href="surprise.html">Surprise</a>
+      </nav>
+    </header>
+    <main class="inner-page centered">
+      <span class="section-kicker">04 — sealed with love</span>
+      <h1 class="page-title">A letter, <em>just for you</em></h1>
+      <p class="lead">I tucked a few words inside. Open when you're ready.</p>
+      <button class="envelope" id="openLetter" aria-label="Open your letter">
+        <span class="envelope-flap"></span><span class="envelope-heart">♡</span
+        ><span class="envelope-label">to you, with love</span>
+      </button>
+      <p class="small-note">tap the envelope to open</p>
+      <div class="letter-paper letter-inline" id="letterPaper" hidden>
+        <p class="handwritten">To my favourite person,</p>
+        <h2>A little note for you</h2>
+        <p>
+          Happy Birthday! I know we haven't known each other for very long, but
+          I'm genuinely grateful that we found our way into each other's lives.
+        </p>
+        <p>
+          Thank you for the conversations, the laughs, and the little moments
+          that have become special to me. I hope today reminds you how
+          appreciated you are.
+        </p>
+        <p>
+          Keep being your lovely, wonderful self. I hope the year ahead is kind
+          to you and brings you countless reasons to smile.
+        </p>
+        <p class="handwritten signoff">
+          With lots of affection, ♡<br /><span id="letterSender"
+            >Your Lover</span
+          >
+        </p>
+      </div>
+      <div class="page-nav">
+        <a href="reasons.html">← Previous page</a
+        ><a href="surprise.html">Next: Final surprise →</a>
+      </div>
+    </main>
+    <footer>made with care, just for you <span>♡</span></footer>
+    <script src="script.js"></script>
+  </body>
+</html>

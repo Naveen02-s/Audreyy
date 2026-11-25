@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#fff8f3" />
+    <title>A Little Scrapbook for You ♡</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="index.html">a little scrapbook <span>♡</span></a
+      ><button class="menu-toggle" aria-label="Open menu" aria-expanded="false">
+        ☰
+      </button>
+      <nav class="nav">
+        <a class="active" href="index.html">Home</a
+        ><a href="plans.html">Little plans</a><a href="story.html">Our story</a
+        ><a href="reasons.html">Reasons</a><a href="letter.html">Letter</a
+        ><a href="surprise.html">Surprise</a>
+      </nav>
+    </header>
+    <main>
+      <section class="hero page-hero">
+        <span class="eyebrow">a little something for your special day</span>
+        <h1>
+          Happy Birthday,<br /><em id="heroName">Beautiful</em
+          ><span class="pink">.</span>
+        </h1>
+        <p class="lead">
+          I collected a few little pieces of my heart<br class="desktop-only" />
+          and put them here for you.
+        </p>
+        <div class="hero-polaroid tilt-left">
+          <div class="photo-placeholder birthday-art" id="heroPhoto">
+            <span>✿</span><small>a little wish<br />for you</small>
+          </div>
+          <p class="handwritten">my favourite person ♡</p>
+          <i class="tape"></i>
+        </div>
+        <a class="primary-button" href="plans.html"
+          >Open your little gift <span>↗</span></a
+        >
+        <p class="scroll-note">a little world made just for you ♡</p>
+      </section>
+      <section class="welcome-note paper-card">
+        <span class="section-kicker">a note before you begin</span>
+        <h2>
+          For the girl who makes<br /><em>ordinary days feel special.</em>
+        </h2>
+        <p>
+          We haven't known each other for very long, but I'm really glad our
+          paths crossed. This little scrapbook is my way of celebrating you, the
+          moments we've shared, and all the memories still waiting to happen.
+        </p>
+        <a class="text-link" href="story.html">Turn the page →</a>
+      </section>
+    </main>
+    <footer>made with care, just for you <span>♡</span></footer>
+    <div class="music-control">
+      <button id="musicToggle" class="music-button">
+        ♫ <span>Play our song</span></button
+      ><audio id="bgMusic" loop preload="none">
+        <source src="images/our-song.mp3" type="audio/mpeg" />
+      </audio>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
